@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+body, html {
+    height: 100vh;
+}
+body {
+    background-image: radial-gradient(#dc143c, #b22222);
+    background-repeat: no-repeat;
+}
+.head-parent {
+    background-color: antiquewhite;
+    height: 80px;
+    text-align: center;
+}
+.game-head {
+    padding: 15px;
+}
+.body-parent {
+    height: 70vh;
+}
+.score-parent {
+    max-width: 600px;
+    height: 40%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.user-score-parent, .comp-score-parent {
+    border: 2px solid papayawhip;
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+}
+.user-head, .comp-head {
+    color: papayawhip;
+    margin-top: 10px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+.user-score, .comp-score {
+    font-size: 4rem;
+    color: papayawhip;
+    font-weight: 700;
+    text-align: center;
+}
+.weapon-btn-head {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.btn {
+    color: orange;
+    border: 5px solid papayawhip;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+.far {
+    font-size: 3.6rem;
+}
+.weapon-action {
+    text-align: center;
+    margin-top: 3.3em;
+}
+.action-message {
+    font-size: 3rem;
+    color: papayawhip;
+}
+footer {
+    height: 80px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.made-by {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
