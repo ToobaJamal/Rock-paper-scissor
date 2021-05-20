@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <title>Rock, paper, scissors</title>
+</head>
+<body>
+    <header class="head-parent">
+        <h1 class="game-head">Rock Paper Scissors</h1>
+    </header>
+    <div class="body-parent">
+        <div class="score-parent">
+            <div class="user-score-parent">
+                <p class="user-head">User</p>
+                <p class="user-score" id="user-score">0</p>
+            </div>
+            <div class="comp-score-parent">
+                <p class="comp-head">Computer</p>
+                <p class="comp-score" id="comp-score">0</p>
+            </div>
+        </div>
+        <div class="weapon-btn-head">
+            <div class="rock-btn btn">
+                <i class="far fa-hand-rock" id="rock"></i>
+            </div>
+            <div class="paper-btn btn">
+                <i class="far fa-hand-paper" id="paper"></i>
+            </div>
+            <div class="scissor-btn btn">
+                <i class="far fa-hand-scissors" id="scissor"></i>
+            </div>
+        </div>
+        <div class="weapon-action">
+            <p class="action-message" id="action-message">Choose your weapon!</p>
+        </div>
+    </div>
+    <footer>
+        <p class="made-by">Made by Tooba Jamal</p>
+    </footer>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
